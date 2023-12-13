@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  background-color: rgb(226, 211, 190);
+  content: calc(90- 110px);
+}
+
+form {
+  display: grid;
+  place-items: start;
+}
+
+
+input {
+  min-width: 290px;
+}
